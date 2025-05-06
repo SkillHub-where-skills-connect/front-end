@@ -1,0 +1,32 @@
+.footer {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffcc00;
+}
+
+.footer .MuiIconButton-root {
+  margin-right: 8px;
+  color: white;
+}
+
+.footer .MuiIconButton-root:hover {
+  color: #ffcc00;
+}

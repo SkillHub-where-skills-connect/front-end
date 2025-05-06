@@ -1,0 +1,48 @@
+.header {
+  background-color: #3f51b5;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.desktop-menu button {
+  margin-left: 10px;
+  color: rgb(14, 192, 55);
+  transition: color 0.3s ease;
+}
+
+.desktop-menu button:hover {
+  color: #ffcc00;
+}
+
+.drawer-list {
+  width: 250px;
+}
+
+.drawer-list .MuiListItemText-root {
+  text-transform: capitalize;
+}
+
+.drawer-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.drawer-list a:hover {
+  color: #3f51b5;
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+  }
+}
